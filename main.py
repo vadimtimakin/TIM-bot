@@ -43,10 +43,6 @@ with open('stats.json', 'r') as f: stats = json.load(f)
 
 # Bot's functions.
 
-
-def generate(): pass
-
-
 @dp.message_handler(commands=['cancel'])
 async def start(message: types.Message):
     """Initializes a dialog."""
